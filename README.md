@@ -8,10 +8,6 @@ Install PHP 7.4, Composer, Laravel, Path Laravel in the Ubuntu 20.04.
 ```base
     # run file
     bash or shell install_laravel.sh
-
-    # when the file opens ~/.bashrc it adds 
-    # this command you do save and it goes on.
-    export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 ```
 
 **Note**:
