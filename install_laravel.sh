@@ -23,8 +23,8 @@ composer global require laravel/installer
 
 # path
 echo "Path"
-nano 'your ~/.bashrc or ~/.bash_profile'
-source 'your ~/.bashrc or ~/.bash_profile'
+echo 'export PATH="$HOME/.config/composer/vendor/bin:$PATH"' >> 'your ~/.bashrc or ~/.bash_profile'
+exec $SHELL
 laravel
 
 # new project
