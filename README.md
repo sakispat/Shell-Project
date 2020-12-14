@@ -3,8 +3,8 @@ Quick and easy installation the Laravel, Ruby from shell.
 
 
 ## Install
-Install PHP 7.4, Composer, Laravel, Path Laravel in the Ubuntu 20.04.
-Install Ruby 2.7, Ruby on Rails 6.1.0, and rbenv, rvm in the Ubuntu 20.04.
+Install PHP 7.4, Composer, Laravel, Path Laravel in the Ubuntu 20.04.<br>
+Install Ruby 2.7, Ruby on Rails 6.1.0, and rbenv, rvm in the Ubuntu 20.04.<br>
 
 ```base
     # run file laravel
