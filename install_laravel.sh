@@ -15,7 +15,7 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 
 echo "Move composer"
-mv composer.phar /usr/local/bin/composer
+mv composer.phar 'your_path/composer'
 
 # install laravel
 echo "Install laravel"
@@ -23,18 +23,18 @@ composer global require laravel/installer
 
 # path
 echo "Path"
-nano ~/.bashrc
-source ~/.bashrc
+nano 'your ~/.bashrc or ~/.bash_profile'
+source 'your ~/.bashrc or ~/.bash_profile'
 laravel
 
 # new project
-cd /opt/lampp/htdocs/developers/
+cd '/your_path/'
 echo "New project laravel"
 laravel new blog
-cd /opt/lampp/htdocs/developers/blog
+cd '/your_path/blog'
 
 # open editor
-subl .
+subl .  # or code .
 
 # run server
 php artisan serve
